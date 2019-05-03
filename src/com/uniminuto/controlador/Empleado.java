@@ -1,4 +1,4 @@
-package com.uniminuto.crud;
+package com.uniminuto.controlador;
 
 public class Empleado { 
 

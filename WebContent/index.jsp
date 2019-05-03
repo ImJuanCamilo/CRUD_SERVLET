@@ -4,12 +4,13 @@
 <html>  
 <head>  
 <meta charset="ISO-8859-1">  
-<title>Insert title here</title>  
+<title>HACKER NEWS</title> 
+<link rel = "stylesheet" href = "style.css"> 
 </head>  
 <body>  
   
-<h1>Add New Employee</h1>  
-<form action="Guardar" method="post">  
+<h1>AÑADIR NUEVO EMPLEADO</h1>  
+<form class="box" action="Guardar" method="post">  
 <table>  
 <tr><td>Id:</td><td><input type="text" name="id"/></td></tr> 
 <tr><td>Name:</td><td><input type="text" name="name"/></td></tr>  
@@ -28,7 +29,7 @@
 </form>  
   
 <br/>  
-<a href="Ver">view employees</a>  
+<a href="Ver">VER REGISTROS</a>  
   
 </body>  
 </html>  

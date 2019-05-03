@@ -1,4 +1,4 @@
-package com.uniminuto.servlet;
+package com.uniminuto.modelo;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -7,9 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import java.io.PrintWriter;  
+import com.uniminuto.controlador.*;
 
-import com.uniminuto.crud.*;
+import java.io.PrintWriter;
   
 
 @WebServlet("/Editar")  

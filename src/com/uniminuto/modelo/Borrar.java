@@ -1,4 +1,4 @@
-package com.uniminuto.servlet;
+package com.uniminuto.modelo;
 
 import java.io.IOException;  
 import javax.servlet.ServletException;  
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;  
 import javax.servlet.http.HttpServletResponse;
 
-import com.uniminuto.crud.*;
+import com.uniminuto.controlador.*;
 
 @WebServlet("/Borrar")  
 
